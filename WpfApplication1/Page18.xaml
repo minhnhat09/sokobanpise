@@ -10,7 +10,7 @@
     <Grid>
         <Image HorizontalAlignment="Left" Height="504" Margin="0,-88,0,-16" VerticalAlignment="Top" Width="650" OpacityMask="#FFBB2E2E" Source="MySource/登陆页面.png" Grid.ColumnSpan="2"/>
         <Label Content="Ballade No.1 In G Minor" HorizontalAlignment="Left" Margin="185,50,0,0" VerticalAlignment="Top" Width="290" Height="50" FontSize="24"/>
-        <Button Content="离开" HorizontalAlignment="Left" Height="30" Margin="275,330,0,0" VerticalAlignment="Top" Width="80" Click="Button_Click"/>
+        <Button Content="Quitter" HorizontalAlignment="Left" Height="30" Margin="275,330,0,0" VerticalAlignment="Top" Width="80" Click="Button_Click"/>
         <Button Content="彩蛋" HorizontalAlignment="Left" Height="30" Margin="275,300,0,0" VerticalAlignment="Top" Width="80" Opacity="0" Click="Button_Click_1"/>
         <Label Name="Label1" Content="恭喜玩家，您已通关!" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="217,129,0,0" FontSize="20"/>
         <Label Name="Label2" Content="感谢您对这款小游戏的支持和喜爱。" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="152,165,0,0" FontSize="20"/>

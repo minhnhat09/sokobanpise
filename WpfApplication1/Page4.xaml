@@ -10,10 +10,10 @@
         <Image HorizontalAlignment="Left" Height="400" VerticalAlignment="Top" Width="650" Source="MySource/新边框.png"/>
         <Label Content="— 第二关 —" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="500,60,0,0" FontSize="15"/>
         <Label Content="— 第二关 —" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="500,310,0,0" FontSize="15"/>
-        <Label Content="    Z键撤销" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="500,210,0,0" FontSize="15"/>
-        <Button Content="离开" HorizontalAlignment="Left" Height="25" Margin="525,260,0,0" VerticalAlignment="Top" Width="50" Click="Button_Click"/>
-        <Button Content="选关" HorizontalAlignment="Left" Height="25" Margin="525,160,0,0" VerticalAlignment="Top" Width="50" Click="Button_Click_1" />
-        <Button Content="重置" HorizontalAlignment="Left" Height="25" Margin="525,110,0,0" VerticalAlignment="Top" Width="50" Click="Button_Click_2"/>
+        
+        <Button Content="Quitter" HorizontalAlignment="Left" Height="25" Margin="525,260,0,0" VerticalAlignment="Top" Width="50" Click="Button_Click"/>
+        <Button Content="Niveau" HorizontalAlignment="Left" Height="25" Margin="525,160,0,0" VerticalAlignment="Top" Width="50" Click="Button_Click_1" />
+        <Button Content="Annuler" HorizontalAlignment="Left" Height="25" Margin="525,110,0,0" VerticalAlignment="Top" Width="50" Click="Button_Click_2"/>
         <Canvas x:Name="Canvas1" Margin="50">
             <Image x:Name="stone1" Canvas.Left="250" Canvas.Top="000" Width="50" Height="50" Source="MySource/石头.png"/>
             <Image x:Name="stone2" Canvas.Left="200" Canvas.Top="150" Width="50" Height="50" Source="MySource/石头.png"/>
