@@ -1,0 +1,31 @@
+﻿<Page x:Class="WpfApplication1.Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="400" d:DesignWidth="650"  
+      Background="#FF359BB9"
+	  Title="Page1" Foreground="{x:Null}" Opacity="1" Name="主界面">
+
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="504" Margin="0,-88,0,-16" VerticalAlignment="Top" Width="650" OpacityMask="#FFBB2E2E" Source="MySource/登陆页面.png" Grid.ColumnSpan="2"/>
+        <Label Content="SokoBan Pise" HorizontalAlignment="Left" Margin="250,70,0,0" VerticalAlignment="Top" Width="151" Height="50" FontSize="24"/>
+        <Button Content="Commencer" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80" Margin="285,150,0,0" Click="Button_Click" Grid.Column="1" Height="22"/>
+        <Button Content="Niveau" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80" Margin="285,200,0,0" Click="Button_Click_4" Grid.Column="1" Height="22"/>
+        <Button Content="Quitter" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80" Margin="285,250,0,0" Click="Button_Click_1" Grid.Column="1" Height="22"/>
+        <Button Content="Info" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80" Margin="285,300,0,0" Click="Button_Click_2" Grid.Column="1" Height="22"/>
+    </Grid>
+    <Page.Triggers>
+        <EventTrigger RoutedEvent="Loaded">
+            <EventTrigger.Actions>
+                <BeginStoryboard>
+                    <Storyboard>
+                        <DoubleAnimation Storyboard.TargetProperty="Opacity" To="1" Duration="0:0:0.3" Storyboard.TargetName="主界面" From="0">
+                        </DoubleAnimation>
+                    </Storyboard>
+                </BeginStoryboard>
+            </EventTrigger.Actions>
+        </EventTrigger>
+    </Page.Triggers>
+</Page>
